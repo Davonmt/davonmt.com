@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.highlight-link {
+    background-color: yellow; /* Highlight background color */
+    color: blue; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    padding: 2px 4px; /* Add some padding */
+}
+
+.highlight-link:hover {
+    background-color: orange; /* Change highlight color on hover */
+}
