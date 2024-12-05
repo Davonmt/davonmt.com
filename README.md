@@ -5,6 +5,6 @@ At DAVON Management & Trading, we're committed to providing exceptional solution
 As we gear up for 2025, our focus remains steadfast: empowering our clients with outstanding service. 
 Stay tuned for more updates and exciting projects ahead!
 
-https://www.linkedin.com/company/davonmt/
+<a href="https://www.linkedin.com/company/davonmt/" class="highlight-link">Visit our Linkedin</a>
 
 # IT'S COMING SOON!!!
