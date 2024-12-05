@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .highlight-link {
-    background-color: yellow; /* Highlight background color */
+    background-color: none; /* Highlight background color */
     color: blue; /* Link text color */
     text-decoration: none; /* Remove underline */
     padding: 2px 4px; /* Add some padding */
