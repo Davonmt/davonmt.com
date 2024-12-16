@@ -59,6 +59,8 @@ form input, form textarea {
     margin-top: 5px;
     padding: 10px;
     font-size: 1rem;
+    width: 100%; /* Ensure inputs take full width on mobile */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 form input[type="submit"] {
@@ -67,8 +69,26 @@ form input[type="submit"] {
     color: #fff;
     border: none;
     cursor: pointer;
+    padding: 10px 20px;
 }
 
 form input[type="submit"]:hover {
     background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    form input, form textarea {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    form input[type="submit"] {
+        padding: 10px;
+        font-size: 1rem;
+    }
 }
