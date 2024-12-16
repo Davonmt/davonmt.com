@@ -48,6 +48,7 @@ footer {
 form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px; /* Add margin to the bottom of the form */
 }
 
 form label {
