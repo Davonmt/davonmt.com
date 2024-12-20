@@ -1,25 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif; /* Updated font */
     margin: 0;
     padding: 0;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color: #333; /* Updated text color */
 }
 
 header {
-    background: #333;
+    background: #0056B3; /* Updated background color */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
 header img {
-    max-width: 150px; /* Adjust the size of the logo */
+    max-width: 150px;
     height: auto;
     display: block;
-    margin: 0 auto; /* Center the logo */
+    margin: 0 auto;
 }
 
 nav ul {
@@ -37,9 +38,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: underline; /* Added hover effect */
+}
+
 main {
     padding: 20px;
     flex: 1;
+    background: #F4F5F7; /* Updated background color */
 }
 
 section {
@@ -47,11 +53,11 @@ section {
 }
 
 footer {
-    background: #333;
+    background: #0056B3; /* Updated background color */
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: relative; /* Changed from fixed to relative */
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -59,7 +65,7 @@ footer {
 form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px; /* Add margin to the bottom of the form */
+    margin-bottom: 100px;
 }
 
 form label {
@@ -70,21 +76,24 @@ form input, form textarea {
     margin-top: 5px;
     padding: 10px;
     font-size: 1rem;
-    width: 100%; /* Ensure inputs take full width on mobile */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 4px; /* Added border radius */
 }
 
 form input[type="submit"] {
     margin-top: 20px;
-    background: #333;
+    background: #0056B3; /* Updated button color */
     color: #fff;
     border: none;
     cursor: pointer;
     padding: 10px 20px;
+    border-radius: 4px; /* Added border radius */
 }
 
 form input[type="submit"]:hover {
-    background: #555;
+    background: #003f7f; /* Updated hover color */
 }
 
 /* Responsive Design */
